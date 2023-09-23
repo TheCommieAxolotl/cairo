@@ -1,0 +1,15 @@
+{
+    "name": "cairo",
+    "module": "lib/index.ts",
+    "type": "module",
+    "scripts": {
+        "make": "bun build ./lib/index.ts --compile --outfile ./dist/cairo --minify",
+        "start": "bun run ."
+    },
+    "devDependencies": {
+        "bun-types": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    }
+}
