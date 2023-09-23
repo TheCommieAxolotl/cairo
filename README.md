@@ -2,6 +2,13 @@
 
 A simple command line tool for enumerating HTTP requests.
 
+## Install
+```sh
+curl -fsSL https://github.com/TheCommieAxolotl/cairo/raw/master/install.sh | sudo sh
+```
+
+## Usage
+
 ```sh
 $ cairo https://google.com
 
